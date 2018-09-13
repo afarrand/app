@@ -260,19 +260,35 @@
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.0-pre.25.tgz#7c5bfeb0da8ab1c8fe6d539e77a13c9b6943aee1"
 
+"@polymer/font-roboto@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.1.tgz#0f3e184ce1c09e132653e34cbbbf1014164a986c"
+
 "@polymer/iron-a11y-announcer@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-announcer/-/iron-a11y-announcer-3.0.0-pre.25.tgz#060a3244f3f28380b5ec8b2e5b4e033fecd351d1"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-a11y-keys-behavior@^3.0.0-pre.21", "@polymer/iron-a11y-keys-behavior@^3.0.0-pre.24":
+"@polymer/iron-a11y-announcer@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-announcer/-/iron-a11y-announcer-3.0.0.tgz#65452cef50bba7fce6480808b4d4b1b44014b422"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-a11y-keys-behavior@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-keys-behavior/-/iron-a11y-keys-behavior-3.0.0-pre.25.tgz#912a4bd78ffbfb455e04fb455877d0409f32f928"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-autogrow-textarea@^3.0.0-pre.21", "@polymer/iron-autogrow-textarea@^3.0.0-pre.24":
+"@polymer/iron-a11y-keys-behavior@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-keys-behavior/-/iron-a11y-keys-behavior-3.0.0.tgz#355a3a8aa58c98fb768f79a42f366e0433f447ed"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-autogrow-textarea@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/iron-autogrow-textarea/-/iron-autogrow-textarea-3.0.0-pre.25.tgz#933e887531b47bb352231d472d6c28ae286258b7"
   dependencies:
@@ -281,11 +297,27 @@
     "@polymer/iron-validatable-behavior" "^3.0.0-pre.24"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-behaviors@^3.0.0-pre.21", "@polymer/iron-behaviors@^3.0.0-pre.24":
+"@polymer/iron-autogrow-textarea@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-autogrow-textarea/-/iron-autogrow-textarea-3.0.0.tgz#7e8002d3ee84ae876a8272b53c3817d0faa5be0e"
+  dependencies:
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-behaviors@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/iron-behaviors/-/iron-behaviors-3.0.0-pre.25.tgz#e9d65fd06af6a275f9e97c20fcff8d2ecbf83c1a"
   dependencies:
     "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.24"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-behaviors@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-behaviors/-/iron-behaviors-3.0.0.tgz#99a018adf2a199546ec68abe254207fc47189d58"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/iron-checked-element-behavior@^3.0.0-pre.24":
@@ -296,21 +328,41 @@
     "@polymer/iron-validatable-behavior" "^3.0.0-pre.24"
     "@polymer/polymer" "^3.0.0"
 
+"@polymer/iron-checked-element-behavior@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-checked-element-behavior/-/iron-checked-element-behavior-3.0.0.tgz#377f32f99a3b163fa22e977a759d589f66c4c428"
+  dependencies:
+    "@polymer/iron-form-element-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
 "@polymer/iron-fit-behavior@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/iron-fit-behavior/-/iron-fit-behavior-3.0.0-pre.25.tgz#d4c27e7f8280f896b8a6fc3220bdca651e1edf7e"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-flex-layout@^3.0.0-pre.21", "@polymer/iron-flex-layout@^3.0.0-pre.24":
+"@polymer/iron-flex-layout@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.0-pre.25.tgz#b4a01c244cc0bcaf8f4fad3e7727b66e06874089"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-form-element-behavior@^3.0.0-pre.21", "@polymer/iron-form-element-behavior@^3.0.0-pre.24":
+"@polymer/iron-flex-layout@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.0.tgz#c477b82501cecf054284e5c46523ce2494e6a7dd"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-form-element-behavior@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/iron-form-element-behavior/-/iron-form-element-behavior-3.0.0-pre.25.tgz#d90101c350e5ac6841c31d17370543a5a93fa2a6"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-form-element-behavior@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-form-element-behavior/-/iron-form-element-behavior-3.0.0.tgz#64b00c78b235f495f0b054524521aaa9cbe56523"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
@@ -329,12 +381,20 @@
     "@polymer/iron-meta" "^3.0.0-pre.24"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-input@^3.0.0-pre.21", "@polymer/iron-input@^3.0.0-pre.24":
+"@polymer/iron-input@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/iron-input/-/iron-input-3.0.0-pre.25.tgz#31a4752b9f3d0039b39ba54d04819ec15e6bf480"
   dependencies:
     "@polymer/iron-a11y-announcer" "^3.0.0-pre.24"
     "@polymer/iron-validatable-behavior" "^3.0.0-pre.24"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-input@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-input/-/iron-input-3.0.0.tgz#d3490c2176244ba6ea52f00b90f4dfcab53a2df7"
+  dependencies:
+    "@polymer/iron-a11y-announcer" "^3.0.0-pre.26"
+    "@polymer/iron-validatable-behavior" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/iron-media-query@^3.0.0-pre.24":
@@ -346,6 +406,12 @@
 "@polymer/iron-meta@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/iron-meta/-/iron-meta-3.0.0-pre.25.tgz#c95c44cbda572b6753cea2f022f94c67d5f698a0"
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-meta@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-meta/-/iron-meta-3.0.0.tgz#bb9836d2d74f4b318585edc64e3cf91c2563394b"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
@@ -366,9 +432,9 @@
     "@polymer/iron-selector" "^3.0.0-pre.24"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-range-behavior@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-range-behavior/-/iron-range-behavior-3.0.0-pre.21.tgz#fe4af6cfbc7b7bfa3958ff5135c3ce2eefa76935"
+"@polymer/iron-range-behavior@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-range-behavior/-/iron-range-behavior-3.0.0.tgz#6cd21dbed7e6e7ab0e8294be7bfa10d9edc9cd9f"
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
@@ -397,6 +463,13 @@
     "@polymer/iron-meta" "^3.0.0-pre.24"
     "@polymer/polymer" "^3.0.0"
 
+"@polymer/iron-validatable-behavior@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-validatable-behavior/-/iron-validatable-behavior-3.0.0.tgz#f47b6d87cfbf29d3357c588e161b52abea1d0de6"
+  dependencies:
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
 "@polymer/neon-animation@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/neon-animation/-/neon-animation-3.0.0-pre.25.tgz#a2bf8ced3c038ec1851aba11c3bf9a8edc14d155"
@@ -405,13 +478,22 @@
     "@polymer/iron-selector" "^3.0.0-pre.24"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/paper-behaviors@^3.0.0-pre.21", "@polymer/paper-behaviors@^3.0.0-pre.25":
+"@polymer/paper-behaviors@^3.0.0-pre.25":
   version "3.0.0-pre.26"
   resolved "https://registry.yarnpkg.com/@polymer/paper-behaviors/-/paper-behaviors-3.0.0-pre.26.tgz#5c95f0c6715a89a3a7af78cc8c5983fd33c6b6a1"
   dependencies:
     "@polymer/iron-behaviors" "^3.0.0-pre.24"
     "@polymer/iron-checked-element-behavior" "^3.0.0-pre.24"
     "@polymer/paper-ripple" "^3.0.0-pre.24"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-behaviors@^3.0.0-pre.27":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-behaviors/-/paper-behaviors-3.0.0.tgz#a9596d412a4f3a2a92f5701999f750a8465bed95"
+  dependencies:
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-checked-element-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-ripple" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/paper-button@^3.0.0-pre.1":
@@ -482,25 +564,25 @@
     "@polymer/paper-styles" "^3.0.0-pre.24"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/paper-input@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-input/-/paper-input-3.0.0-pre.21.tgz#637ccb08c53604bf8334f8c0b7f764e509afb424"
+"@polymer/paper-input@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-input/-/paper-input-3.0.0.tgz#3459a41db05e616757c154300f17d43038f42869"
   dependencies:
-    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.21"
-    "@polymer/iron-autogrow-textarea" "^3.0.0-pre.21"
-    "@polymer/iron-behaviors" "^3.0.0-pre.21"
-    "@polymer/iron-form-element-behavior" "^3.0.0-pre.21"
-    "@polymer/iron-input" "^3.0.0-pre.21"
-    "@polymer/paper-styles" "^3.0.0-pre.21"
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-autogrow-textarea" "^3.0.0-pre.26"
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-form-element-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-input" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/paper-progress@^3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-progress/-/paper-progress-3.0.0-pre.21.tgz#8170a34dafa56d5a9a227954563d95fdf445e97c"
+"@polymer/paper-progress@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-progress/-/paper-progress-3.0.0.tgz#b4609e59f6b4b407bcbc99851f06cb4973c29bdb"
   dependencies:
-    "@polymer/iron-flex-layout" "^3.0.0-pre.21"
-    "@polymer/iron-range-behavior" "^3.0.0-pre.21"
-    "@polymer/paper-styles" "^3.0.0-pre.21"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-range-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/paper-ripple@^3.0.0-pre.24":
@@ -510,18 +592,25 @@
     "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.24"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/paper-slider@3.0.0-pre.21":
-  version "3.0.0-pre.21"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-slider/-/paper-slider-3.0.0-pre.21.tgz#c7648099305a7b8c8e9454688372d27b4303ed30"
+"@polymer/paper-ripple@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-ripple/-/paper-ripple-3.0.0.tgz#3cffac74c3de8796738dc136ac50c2efdddf3a58"
   dependencies:
-    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.21"
-    "@polymer/iron-behaviors" "^3.0.0-pre.21"
-    "@polymer/iron-flex-layout" "^3.0.0-pre.21"
-    "@polymer/iron-form-element-behavior" "^3.0.0-pre.21"
-    "@polymer/paper-behaviors" "^3.0.0-pre.21"
-    "@polymer/paper-input" "^3.0.0-pre.21"
-    "@polymer/paper-progress" "^3.0.0-pre.21"
-    "@polymer/paper-styles" "^3.0.0-pre.21"
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-slider@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-slider/-/paper-slider-3.0.0.tgz#cebbe02186cf4a02fbf54fcb725c60c28ed7d5bd"
+  dependencies:
+    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.26"
+    "@polymer/iron-behaviors" "^3.0.0-pre.26"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
+    "@polymer/iron-form-element-behavior" "^3.0.0-pre.26"
+    "@polymer/paper-behaviors" "^3.0.0-pre.27"
+    "@polymer/paper-input" "^3.0.0-pre.26"
+    "@polymer/paper-progress" "^3.0.0-pre.26"
+    "@polymer/paper-styles" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/paper-spinner@^3.0.0-pre.1":
@@ -531,12 +620,20 @@
     "@polymer/paper-styles" "^3.0.0-pre.24"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/paper-styles@^3.0.0-pre.21", "@polymer/paper-styles@^3.0.0-pre.24":
+"@polymer/paper-styles@^3.0.0-pre.24":
   version "3.0.0-pre.25"
   resolved "https://registry.yarnpkg.com/@polymer/paper-styles/-/paper-styles-3.0.0-pre.25.tgz#7ec9e74d2bf6960feaea47d2636026a91eac6aae"
   dependencies:
     "@polymer/font-roboto" "^3.0.0-pre.24"
     "@polymer/iron-flex-layout" "^3.0.0-pre.24"
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/paper-styles@^3.0.0-pre.26":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-styles/-/paper-styles-3.0.0.tgz#ba96c761e1eebf8e59f65f189b05353adb97a119"
+  dependencies:
+    "@polymer/font-roboto" "^3.0.1"
+    "@polymer/iron-flex-layout" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
 "@polymer/paper-toast@^3.0.0-pre.1":
